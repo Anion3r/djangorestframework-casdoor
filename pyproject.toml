@@ -1,3 +1,21 @@
 [build-system]
 requires = ['setuptools>=40.8.0', 'wheel']
 build-backend = 'setuptools.build_meta:__legacy__'
+[project]
+name = "djangorestframework-casdoor"
+version = "1.0"
+authors = [
+  { name="Anioner", email="anioner@qq.com" },
+]
+description = "djangorestframework-casdoor is a Django REST framework authentication plugin for Casdoor."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Anion3r/djangorestframework-casdoor"
+"Bug Tracker" = "https://github.com/Anion3r/djangorestframework-casdoor/issues"
